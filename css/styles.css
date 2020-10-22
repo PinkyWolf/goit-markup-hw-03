@@ -135,7 +135,7 @@ body {
   width: 1170px;
 }
 .atributes-text {
-  outline: solid 5px gold;
+/*   outline: solid 5px gold; */
   width: 270px;
   left: 815px;
   top: 800px;
@@ -294,7 +294,7 @@ body {
   display: inline-block;
   width: 1600px;
   height: 252px;
-  margin-top: 94px;
+/*   margin-top: 94px; */
 }
 .footer {
   width: 1600px;
