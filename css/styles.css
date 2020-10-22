@@ -189,6 +189,12 @@ body {
   margin-top: 94px;
   background: var(--secondaru-bg-color);
 }
+.flex-container {
+/*   outline: solid 5px black; */
+  padding: 0px 215px;
+  display: flex;
+  text-align: center;
+}
 .flex-container-title {
 /*   outline: solid 5px blue; */
   font-weight: 700;
@@ -198,17 +204,22 @@ body {
   padding-left: 618px;
   padding-top: 94px;
 }
-.flex-container {
-/*   outline: solid 5px black; */
-  padding: 0px 215px;
-  display: flex;
-}
 .flex-item {
 /*   outline: solid 5px springgreen; */
   margin-right: 30px;
+
+  font-weight: 400;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+.name {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.job-title {
+  display: inline-block;
+  padding-bottom: 30px;
 }
 
 /* Параметри для сторінки Портфоліо */
