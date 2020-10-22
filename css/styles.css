@@ -265,7 +265,6 @@ body {
 .project-list {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   margin-left: 215px;
   margin-right: 215px;
   width: 1200px;
@@ -282,7 +281,7 @@ body {
 .flex-cont-portf:nth-child(3n) {
   margin-right: 0px;
 }
-.flex-cont-portf:nth-child(n+7) {
+.flex-cont-portf {
   margin-bottom: 30px;
 }
 .second-page-title {
