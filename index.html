@@ -9,83 +9,90 @@
     <title>WebStudio</title>
   </head>
   <body>
-    <header class="header">
-      <nav class="page-header">
+    <div class="header-container">
+      <header class="header">
+        <nav class="page-header">
           <ul class="navigation-header">
             <li class="item"><a class="title" href="./index.html"><span class="title-properties">Web</span>Studio</a></li>
             <li class="item"><a class="link-decor" href="./index.html"><span>Студия</span></a></li>
             <li class="item"><a class="link-decor" href="./portfolio.html"><span>Портфолио</span></a></li>
-            <li class="item"><a class="link-decor" href="#contacts" ><span>Контакты</span></a></li>
+            <li class="item"><a class="link-decor" href="#contacts"><span>Контакты</span></a></li>
           </ul>
           <ul class="nav-cont">
             <li class="item"><a class="link-decor" href="mailto:info@devstudio.com"><span>info@devstudio.com</span></a></li>
             <li class="item"><a class="link-decor" href="tel:380961111111"><span>+38 096 111 11 11</span></a></li>
           </ul>
-      </nav>
-    </header>
+        </nav>
+      </header>
+    </div>
     <main>
-      <section class="main">
-        <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="main-button">Заказать услугу</button>
-      </section>
-      <section class="section-3">
-        <div class="atributes">
+      <div class="main-container">
+        <section class="main">
+          <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
+          <button type="button" class="main-button">Заказать услугу</button>
+        </section>
+      </div>
+      <div class="atributes-container">
+         <div class="atributes">
           <p class="atributes-text">
             <span>Внимание к деталям</span> <br>
             Идейные соображения, а также начало повседневной работы по формированию позиции.
           </p>
+          
           <p class="atributes-text">
             <span>Пунктуальность</span> <br>
             Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
           </p>
+
           <p class="atributes-text">
             <span>Планирование</span> <br>
             Равным образом консультация с широким активом в значительной степени обуславливает.
           </p>
+
           <p class="atributes-text">
             <span>Современные технологии</span> <br>
             Значимость этих проблем настолько очевидна, что реализация плановых заданий.
           </p>
-        </div>
-          <div class="gallery-1-title">
-            <h4 >Чем мы занимаемся</h4>
-          </div>
-        <div class="gallery">
+         </div>
+      </div>
+        <div class="container-gallery">
+            <h4 class="gallery-1-title">Чем мы занимаемся</h4>
           <ul class="gallery-1">
-            <li><img src="./images/workspace.jpg" width=370 height="294" alt="робочий стіл" /></li>
-            <li><img src="./images/phone.jpg" width=370 height="294" alt="телефон" /></li>
-            <li><img src="./images/tablet.jpg" width=370 height="294" alt="планшет" /></li>
+            <li><img class="img-gallery-1" src="./images/workspace.jpg" width=370  alt="рабочий стол" /></li>
+            <li><img class="img-gallery-1" src="./images/phone.jpg" width=370  alt="телефон" /></li>
+            <li><img class="img-gallery-1" src="./images/tablet.jpg" width=370  alt="планшет" /></li>
           </ul>
         </div>
-      </section>
       <!--розділ про команду ресурсу-->
-      <section class="our-team">
+      <div class="our-team-container">
+       <section class="our-team">
         <h4 class="flex-container-title">Наша команда</h4>
           <div class="flex-container">
             <div class="flex-item">
-              <img src="./images/игорь_демяненко.jpg" width=270 height="260" alt="Фото Игорь Демяненко" />
+              <img class="img" src="./images/игорь_демяненко.jpg" height="260" alt="Фото Игорь Демяненко" />
               <h3 class="name">Игорь Демяненко</h3>
               <span class="job-title" lang="en">Product designer</span>  
             </div>
             <div class="flex-item">
-              <img src="./images/ольга_репина.jpg" width=270 height="260" alt="Фото Ольга Репина" />
+              <img class="img" src="./images/ольга_репина.jpg" height="260" alt="Фото Ольга Репина" />
               <h3 class="name">Ольга Репина</h3>
               <span class="job-title" lang="en">UI Designer</span>
             </div>
             <div class="flex-item">
-              <img src="./images/николай_тарасов.jpg" width=270 height="260" alt="Фото Николай Тарасов" />
+              <img class="img" src="./images/николай_тарасов.jpg" height="260" alt="Фото Николай Тарасов" />
               <h3 class="name">Николай Тарасов</h3>
               <span class="job-title" lang="en">Marketing</span>
           </div>
             <div class="flex-item">
-              <img src="./images/михаил_ермаков.jpg" width=270 height="260" alt="Фото Михаил Ермаков" />
+              <img class="img" src="./images/михаил_ермаков.jpg" height="260" alt="Фото Михаил Ермаков" />
               <h3 class="name">Михаил Ермаков</h3>
               <span class="job-title" lang="en">Frontend Developer</span>
             </div>
           </div>
-      </section>
-    </main>
-   <div class="container-2">
+       </section>
+      </div>
+  </main>
+   <div class="footer-container">
     <footer id="contacts">
       <h2 class="contacts-title"><a class="footer-title" href="./index.html"><span>Web</span>Studio</a></h2>
         <address class="footer">
