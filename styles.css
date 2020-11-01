@@ -81,9 +81,6 @@ body {
 .nav-cont .item + .item {
   margin-left: 50px;
 }
-.contacts :hover {
-  color: var(--primary-text-color);
-}
 
 /* Герой */
 
@@ -189,16 +186,16 @@ body {
 
 .our-team {
   /*   outline: solid 5px tomato; */
-  width: 1600px;
+  /* width: 1600px; */
   height: 648px;
   margin-top: 94px;
   background: var(--secondaru-bg-color);
 }
 .flex-container {
   /*   outline: solid 5px black; */
-  padding: 0px 215px;
+  align-items: center;
+  /* padding: 0px 215px; */
   display: flex;
-  text-align: center;
 }
 .flex-container-title {
   /*   outline: solid 5px blue; */
