@@ -214,6 +214,7 @@ body {
 .img-gallery-1 {
   height: 294px;
   margin-right: 30px;
+  object-fit: cover;
 }
 .img-gallery-1:nth-child(3n) {
   margin-right: 0;
@@ -223,11 +224,6 @@ body {
 }
 
 /* Секція з командою */
-.our-team-container {
-  /* height: 648px; */
-  /* margin-right: auto;
-  margin-left: auto; */
-}
 .our-team {
   height: 648px;
   margin-top: 94px;
